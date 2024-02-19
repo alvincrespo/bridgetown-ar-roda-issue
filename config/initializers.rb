@@ -1,3 +1,5 @@
+require 'dotenv/load'
+
 Bridgetown.configure do |config|
   # You can configure aspects of your Bridgetown site here instead of using
   # `bridgetown.config.yml`. For example:
@@ -66,5 +68,5 @@ Bridgetown.configure do |config|
   }
 
   config.autoloader_collapsed_paths << "models/concerns"
-  init :"bridgetown-activerecord" 
+  init :"bridgetown-activerecord"
 end
