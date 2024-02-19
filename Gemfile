@@ -42,3 +42,7 @@ gem "annotate", "~> 3.2", :group => :development
 gem "pg", "~> 1.5"
 
 gem "dotenv", "~> 3.0"
+
+gem "pry", "~> 0.14.2"
+
+gem "sequel-activerecord_connection", "~> 1.3"
