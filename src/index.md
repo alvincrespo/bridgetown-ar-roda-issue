@@ -5,7 +5,7 @@ layout: default
 ---
 
 
-<form name="signup-for-updates" method="POST" action="/signup">
+<form name="signup-for-updates" method="POST" action="/signup_request">
   <input type="hidden" name="form-name" value="signup-for-updates">
   <input aria-label="Email" type="email" name="email" placeholder="Enter your email">
   <button type="submit">Notify me</button>
