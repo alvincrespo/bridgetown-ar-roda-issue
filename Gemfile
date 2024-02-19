@@ -40,3 +40,5 @@ gem "bridgetown-activerecord", "~> 2.2"
 gem "annotate", "~> 3.2", :group => :development
 
 gem "pg", "~> 1.5"
+
+gem "dotenv", "~> 3.0"
